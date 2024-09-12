@@ -17,7 +17,7 @@ const Header = ({ y }) => {
       </h1>
       <div className="sm:flex ml-auto pr-4 items-center gap-4 hidden">
         {tabs.map((tab) => (
-          <a href={tab.link} className="duration-200 hover:text-violet-400">
+          <a key={tabs.name}href={tab.link} className="duration-200 hover:text-violet-400">
             <p>{tab.name}</p>
           </a>
         ))}

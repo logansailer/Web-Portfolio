@@ -6,19 +6,19 @@ let steps = [
     icon: "fa-solid fa-ship",
     href: "https://logansailer.github.io/Battleship/",
     content:
-      "Batlleship is a web-based version of the hit game of the same name. The app was created to practice test driven development and object oriented programming",
+      "Batlleship is a web-based version of the hit game of the same name. The app was created to practice test driven development and object oriented programming using JavaScript, HTML, and CSS.",
   },
   {
     name: "Sunny",
     icon: "fa-solid fa-sun",
     href: "https://logansailer.github.io/Weather-App/",
-    content: "",
+    content: "Sunny is a simple weather site designed around why I check the weather: to see if need to wear sunscreen. The app was created to practice api calls and response web design.",
   },
   {
     name: "Resturant Mock-up",
     icon: "fa-solid fa-utensils",
     href: "https://logansailer.github.io/Restaurant-Page/",
-    content: "",
+    content: "This mock up is a very simple but lightning-fast single page application for a well known fast-food chain. It was built using vanilla Javascript, HTML, an CSS with webpack to improve perfornace.",
   },
 ];
 
@@ -39,7 +39,7 @@ let benefits = [
       "I taught myself to code using free online resources and absolutely fell in love with the creativity and problem solving that is involved in developing and engineering innovative new online experiences. Starting of with JavaScript, HTML & CSS and evolving my knowledge base to include JavaScript frameworks, backend programming, design, cloud services and much much more.",
   },
 ];
-const Main = ({}) => {
+const Main = () => {
   return (
     <main className="flex flex-col flex-1 p-4">
       <section
@@ -51,7 +51,7 @@ const Main = ({}) => {
         lg:text-left gap-6 md:gap-8 lg:gap-10"
         >
           <h2 className="font-semibold text-4xl sm:text-5xl md:text-6xl">
-            Hi I'm <span className="poppins text-violet-400">Logan</span> Sailer
+            Hi I&apos;m <span className="poppins text-violet-400">Logan</span> Sailer
             <br />A Full Stack{" "}
             <span className="poppins text-violet-400">Developer</span>
           </h2>
@@ -126,7 +126,7 @@ const Main = ({}) => {
         </p>
         <div className="flex flex-col gap-20 w-full mx-auto max-w-[800px]">
           {benefits.map((benefit, index = 0) => (
-            <div className="flex gap-6 sm:gap-8">
+            <div key={benefit.name}className="flex gap-6 sm:gap-8">
               <p className="poppins text-4xl sm:text-5xl md:text-6xl text-slate-500 font-semibold">
                 0{index + 1}
               </p>

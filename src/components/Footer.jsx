@@ -1,4 +1,4 @@
-const Footer = ({}) => {
+const Footer = () => {
   return (
     <div
       className="py-20 sm:py-32 bg-black border-t border-solid border-violet-950 flex flex-col 
