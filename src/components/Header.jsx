@@ -25,9 +25,13 @@ const Header = ({ y }) => {
       <a
         href="https://www.linkedin.com/in/logan-sailer/"
         target="_blank"
-        className="blueShadow relative overflow-hidden px-5 py-2 group rounded-full bg-white text-slate-950"
+        className="blueShadow relative overflow-hidden px-5 py-2 group rounded-full
+         bg-white text-slate-950"
       >
-        <div className="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
+        <div
+          className="absolute top-0 right-full w-full h-full bg-violet-400 
+        opacity-20 group-hover:translate-x-full z-0 duration-200"
+        ></div>
         <h4 className="relative z-9">Get in Touch</h4>
       </a>
     </header>

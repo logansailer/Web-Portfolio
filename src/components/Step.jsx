@@ -14,7 +14,7 @@ const Step = ({ step }) => {
       <p>{step.content}</p>
       <div className="flex-1 flex justify-between gap-4 items-center">
         <div className="ml-auto cursor-pointer hover:text-slate-950 duration-200 relative after:absolute after:top-0 after:right-full after:w-full after:bg-white after:h-full after:duration-200 hover:after:translate-x-full after:z-[-1] overflow-hidden">
-          <p className="relative z-4">Go to &#8594; </p>
+          <p className="relative z-4">Go to &rarr; </p>
         </div>
       </div>
     </a>
