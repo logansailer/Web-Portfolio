@@ -80,7 +80,7 @@ const Main = () => {
         </div>
         <div className="relative shadow-2xl grid place-items-center">
           <img
-            src={"./src/assets/profile.png"}
+            src={"/profile.png"}
             alt="Profile image"
             className="object-cover z-[2] max-h-[70vh]"
           ></img>
