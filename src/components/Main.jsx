@@ -12,13 +12,15 @@ let steps = [
     name: "Sunny",
     icon: "fa-solid fa-sun",
     href: "https://logansailer.github.io/Weather-App/",
-    content: "Sunny is a simple weather site designed around why I check the weather: to see if need to wear sunscreen. The app was created to practice api calls and response web design.",
+    content:
+      "Sunny is a simple weather site designed around why I check the weather: to see if need to wear sunscreen. The app was created to practice api calls and response web design.",
   },
   {
     name: "Resturant Mock-up",
     icon: "fa-solid fa-utensils",
     href: "https://logansailer.github.io/Restaurant-Page/",
-    content: "This mock up is a very simple but lightning-fast single page application for a well known fast-food chain. It was built using vanilla Javascript, HTML, an CSS with webpack to improve perfornace.",
+    content:
+      "This mock up is a very simple but lightning-fast single page application for a well known fast-food chain. It was built using vanilla Javascript, HTML, an CSS with webpack to improve perfornace.",
   },
 ];
 
@@ -29,13 +31,14 @@ let benefits = [
       "As a biologist turned self taught developer, my journey began with curiosity. As I dove into learning to code, I quickly fell in love with the creativity and endless possibilities that are at my fingertips as a developer. Starting off with Python and C, and advancing my knowledge to include JavaScript, React, node.js, and more, I have created countless apps that solve real world problems and helped build a strong foundation if software development.",
   },
   {
+    name: "continuously learning",
+    description:
+      'Growing up, I was always the "tech guy". That started out as being the one to fix the family wifi, but grew into installing emulators on the PC I built, and flashing custom ROMs on my android phone. The thrill of trying something new with tech, failing at first, and then finding a way to make it work has always tickled something in me and fueled my desire to keep learning more.',
+  },
+  {
     name: "an adaptable and hard worker",
     description:
       "Driven by a genuine passion for technology and design, I approach every project with dedication and perseverance. My journey as a self-taught developer is a testament to my commitment to my work. I thrive in pushing through challenges and learning new ways to solve problems in order to hours to refine my skills and deliver the best results.",
-  },
-  {
-    name: "continuously learning",
-    description: 'Growing up, I was always the "tech guy". That started out as being the one to fix the family wifi, but grew into installing emulators on the PC I built, and flashing custom ROMs on my android phone. The thrill of trying something new with tech, failing at first, and then finding a way to make it work has always tickled something in me and fueled my desire to keep learning more.',
   },
 ];
 const Main = () => {
@@ -50,7 +53,8 @@ const Main = () => {
         lg:text-left gap-6 md:gap-8 lg:gap-10"
         >
           <h2 className="font-semibold text-4xl sm:text-5xl md:text-6xl">
-            Hi I&apos;m <span className="poppins text-violet-400">Logan</span> Sailer
+            Hi I&apos;m <span className="poppins text-violet-400">Logan</span>{" "}
+            Sailer
             <br />A Full Stack{" "}
             <span className="poppins text-violet-400">Developer</span>
           </h2>
@@ -125,7 +129,7 @@ const Main = () => {
         </p>
         <div className="flex flex-col gap-20 w-full mx-auto max-w-[800px]">
           {benefits.map((benefit, index = 0) => (
-            <div key={benefit.name}className="flex gap-6 sm:gap-8">
+            <div key={benefit.name} className="flex gap-6 sm:gap-8">
               <p className="poppins text-4xl sm:text-5xl md:text-6xl text-slate-500 font-semibold">
                 0{index + 1}
               </p>
