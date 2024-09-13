@@ -41,6 +41,7 @@ let benefits = [
       "Driven by a genuine passion for technology and design, I approach every project with dedication and perseverance. My journey as a self-taught developer is a testament to my commitment to my work. I thrive in pushing through challenges and learning new ways to solve problems in order to hours to refine my skills and deliver the best results.",
   },
 ];
+
 const Main = () => {
   return (
     <main className="flex flex-col flex-1 p-4">
@@ -79,7 +80,7 @@ const Main = () => {
         </div>
         <div className="relative shadow-2xl grid place-items-center">
           <img
-            src={"src/assets/profile.png"}
+            src={"./src/assets/profile.png"}
             alt="Profile image"
             className="object-cover z-[2] max-h-[70vh]"
           ></img>
@@ -94,15 +95,6 @@ const Main = () => {
             Please take a <span className="poppins text-violet-400">look</span>
           </h3>
         </div>
-        <a
-          href=""
-          target="_blank"
-          className="mx-auto px-4 py-2 rounded-md border border-solid border-white 
-          flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-voilet-70 duration-200"
-        >
-          <i className="fa-regular fa-circle-play"></i>
-          <p>Watch Video</p>
-        </a>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
           <Step step={steps[0]} />
           <Step step={steps[1]} />
