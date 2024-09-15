@@ -67,7 +67,7 @@ const Main = () => {
           <a
             href="https://www.linkedin.com/in/logan-sailer/"
             target="_blank"
-            className="poppins blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg 
+            className="poppins mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg 
             md:text-xl relative overflow-hidden px-6 py-3 group rounded-full bg-white
              text-slate-950 cursor-pointer"
           >
