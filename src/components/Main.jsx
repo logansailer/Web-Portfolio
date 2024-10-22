@@ -28,7 +28,7 @@ let benefits = [
   {
     name: "a self taught developer",
     description:
-      "As a biologist turned self taught developer, my journey began with curiosity. As I dove into learning to code, I quickly fell in love with the creativity and endless possibilities that are at my fingertips as a developer. Starting off with Python and C, and advancing my knowledge to include JavaScript, React, node.js, and more, I have created countless apps that solve real world problems and helped build a strong foundation if software development.",
+      "As a biologist turned developer, my journey began with curiosity. As I dove into learning to code, I quickly fell in love with the creativity and endless possibilities that are at my fingertips as a developer. Starting off with Python and C, and advancing my knowledge to include JavaScript, React.JS, Node.JS, and more, I have created countless apps that solve real world problems and helped build a strong foundation if software development.",
   },
   {
     name: "continuously learning",
@@ -38,7 +38,7 @@ let benefits = [
   {
     name: "an adaptable and hard worker",
     description:
-      "Driven by a genuine passion for technology and design, I approach every project with dedication and perseverance. My journey as a self-taught developer is a testament to my commitment to my work. I thrive in pushing through challenges and learning new ways to solve problems in order to hours to refine my skills and deliver the best results.",
+      "Driven by a genuine passion for technology and design, I approach every project with dedication and perseverance. My journey as a self-taught developer is a testament to my commitment to my work. I thrive in pushing through challenges and learning new ways to solve problems in order to refine my skills and deliver the best results.",
   },
 ];
 
@@ -89,7 +89,7 @@ const Main = () => {
       <section id="projects" className="py-20 lg:py-32 flex flex-col gap-24">
         <div className="flex flex-col gap-2 text-center">
           <h6 className="text-lg sm:text-xl md:text-2xl">
-            A few of my past works
+            A few of my past projects
           </h6>
           <h3 className="font-semibold text-3xl sm:text-4xl md:text-5xl">
             Please take a <span className="poppins text-violet-400">look</span>
