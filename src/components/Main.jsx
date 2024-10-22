@@ -6,21 +6,21 @@ let steps = [
     icon: "fa-solid fa-mug-hot",
     href: "https://chacha-tracking.netlify.app/",
     content:
-      "Chacha is a tea and caffeine tracking app. The app was created to combine research done in my undergrad based around caffeine intake with my love for tea. Chacha is writen using React.JS and features Firebase user authentication and database management",
+      "Chacha is a tea and caffeine tracking app. The app was created to combine research done in my undergrad based around caffeine intake with my love for tea. Chacha is written using React.JS and features Firebase user authentication and database management",
   },
   {
     name: "Battleship",
     icon: "fa-solid fa-ship",
     href: "https://logansailer.github.io/Battleship/",
     content:
-      "Batlleship is a web-based version of the hit game of the same name. The app was created to practice test driven development and object oriented programming using JavaScript, HTML, and CSS.",
+      "Battleship is a web-based version of the hit game of the same name. The app was created to practice test driven development and object oriented programming using JavaScript, HTML, and CSS.",
   },
   {
     name: "Sunny",
     icon: "fa-solid fa-sun",
     href: "https://logansailer.github.io/Weather-App/",
     content:
-      "Sunny is a simple weather site designed around why I check the weather: to see if need to wear sunscreen. The app was created to practice api calls and responsive web design.",
+      "Sunny is a simple weather site designed around why I check the weather: to see if I need to wear sunscreen. The app was created to practice api calls and responsive web design.",
   },
 ];
 
