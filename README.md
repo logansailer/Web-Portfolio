@@ -1,4 +1,4 @@
 # Web-Portfolio
-My personal portfolio
+My personal portfolio built using React.JS and Tailwind.
 
-You can visit my site here https://logan-sailer.netlify.app/
+See it live [here](https://logan-sailer.netlify.app/) 👈
