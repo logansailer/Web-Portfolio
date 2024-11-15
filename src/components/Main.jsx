@@ -2,6 +2,13 @@ import Step from "./Step";
 
 let steps = [
   {
+    name: ".world",
+    icon: "fa-solid fa-globe",
+    href: "https://github.com/logansailer/ecommerce-site/tree/main?tab=readme-ov-file",
+    content:
+      ".world is a responsive, full-stack e-commerce web application built with React, Node.js, Express, Firebase, Stripe, and Toastify. It offers a seamless user experience for browsing and purchasing.",
+  },
+  {
     name: "Chacha",
     icon: "fa-solid fa-mug-hot",
     href: "https://chacha-tracking.netlify.app/",
@@ -14,13 +21,6 @@ let steps = [
     href: "https://logansailer.github.io/Battleship/",
     content:
       "Battleship is a web-based version of the hit game of the same name. The app was created to practice test driven development and object oriented programming using JavaScript, HTML, and CSS.",
-  },
-  {
-    name: "Sunny",
-    icon: "fa-solid fa-sun",
-    href: "https://logansailer.github.io/Weather-App/",
-    content:
-      "Sunny is a simple weather site designed around why I check the weather: to see if I need to wear sunscreen. The app was created to practice api calls and responsive web design.",
   },
 ];
 
