@@ -6,7 +6,7 @@ let steps = [
     icon: "fa-solid fa-globe",
     href: "https://github.com/logansailer/ecommerce-site/tree/main?tab=readme-ov-file",
     content:
-      ".world is a responsive, full-stack e-commerce web application built with React, Node.js, Express, Firebase, Stripe, and Toastify. It offers a seamless user experience for browsing and purchasing.",
+      ".world is a responsive, full-stack e-commerce web application built with React, Node.js, and Express. It offers a seamless user experience for browsing and purchasing using Firebase for secure user authentication and Stripe for secure transactions",
   },
   {
     name: "Chacha",
