@@ -6,14 +6,14 @@ let steps = [
     icon: "fa-solid fa-globe",
     href: "https://github.com/logansailer/ecommerce-site/tree/main?tab=readme-ov-file",
     content:
-      ".world is a responsive, full-stack e-commerce web application built with React, Node.js, and Express. It offers a seamless user experience for browsing and purchasing using Firebase for convenient user authentication and Stripe for secure transactions",
+      ".world is a responsive, full-stack e-commerce web application built with React, Node.js, and Express. It offers a seamless user experience for browsing and purchasing using Firebase for convenient user authentication and Stripe for secure transactions.",
   },
   {
     name: "Chacha",
     icon: "fa-solid fa-mug-hot",
     href: "https://chacha-tracking.netlify.app/",
     content:
-      "Chacha is a tea and caffeine tracking app. The app was created to combine research done in my undergrad based around caffeine intake with my love for tea. Chacha is written using React.JS and features Firebase user authentication and database management",
+      "Chacha is a tea and caffeine tracking app. The app was created to combine research done in my undergrad based around caffeine intake with my love for tea. Chacha is written using React.JS and features Firebase user authentication and database management.",
   },
   {
     name: "Battleship",
