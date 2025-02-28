@@ -16,11 +16,11 @@ let steps = [
       "Chacha is a tea and caffeine tracking app. The app was created to combine research done in my undergrad based around caffeine intake with my love for tea. Chacha is written using React.JS and features Firebase user authentication and database management.",
   },
   {
-    name: "Battleship",
-    icon: "fa-solid fa-ship",
-    href: "https://logansailer.github.io/Battleship/",
+    name: "Sorting Visualizer",
+    icon: "fa-solid fa-chart-simple",
+    href: "https://sortlogansailer.netlify.app/",
     content:
-      "Battleship is a web-based version of the hit game of the same name. The app was created to practice test driven development and object oriented programming using JavaScript, HTML, and CSS.",
+      "This app showcases how different sorting algorithims function. Written in TypeScript with Next.js, the visualizer is fully responsive on both web and mobile.",
   },
 ];
 
