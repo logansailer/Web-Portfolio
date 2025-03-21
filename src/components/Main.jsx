@@ -26,19 +26,19 @@ let steps = [
 
 let benefits = [
   {
-    name: "a self taught developer",
+    name: "a developer",
     description:
-      "As a biologist turned developer, my journey began with curiosity. As I dove into learning to code, I quickly fell in love with the creativity and endless possibilities that are at my fingertips as a developer. Starting off with Python and C, and advancing my knowledge to include JavaScript, React.JS, Node.JS, and more, I have created countless apps that solve real world problems and helped build a strong foundation if software development.",
+      "I initially pursued premed due to external expectations, but I took charge of my career and discovered my true passion for software development. Through self-study, I became proficient in full-stack development, built a fully functional e-commerce platform, and mastered technologies like React, Node.js, and Firebase. Now, I'm further solidifying my skills through a second degree in Computer Science, continuously pushing myself to grow and improve.",
   },
   {
-    name: "continuously learning",
+    name: "a biologist",
     description:
-      'Growing up, I was always the "tech guy". That started out as being the one to fix the family wifi, but grew into installing emulators on the PC I built, and flashing custom ROMs on my android phone. The thrill of trying something new with tech, failing at first, and then finding a way to make it work has always tickled something in me and fueled my desire to keep learning more.',
+      "My biology degree trained me to analyze complex systems, interpret data, and think critically—skills that directly apply to software development. Working in a hospital exposed me to high-pressure problem-solving and interdisciplinary collaboration. With a scientific mindset, I'm used to forming hypotheses, testing solutions, and refining results, which helps me approach debugging and optimizing code in a structured way.",
   },
   {
-    name: "an adaptable and hard worker",
+    name: "a bridge",
     description:
-      "Driven by a genuine passion for technology and design, I approach every project with dedication and perseverance. My journey as a self-taught developer is a testament to my commitment to my work. I thrive in pushing through challenges and learning new ways to solve problems in order to refine my skills and deliver the best results.",
+      "With a background in both science and software, I bring a unique interdisciplinary perspective. My knowledge of biology and healthcare makes me well-suited for biotech, healthtech, and AI-driven research. I understand both the scientific process and the software development lifecycle, allowing me to bridge the gap between researchers and engineers. Whether working with data, algorithms, or healthcare applications, I'm excited about building technology that solves real-world scientific problems.",
   },
 ];
 
@@ -60,9 +60,8 @@ const Main = () => {
             <span className="poppins text-violet-400">Developer</span>
           </h2>
           <p className="text-base sm:text-lg md:text-xl">
-            My <span className="text-violet-400">favorite tech</span> includes
-            JavaScript (especially React.js), TailwindCSS, Node.js, Python, and
-            SQL!
+            My <span className="text-violet-400">tech stack</span> includes
+            JavaScript, TypeScript, Python, C, and SQL and I have experience with frameworks and libraries such as React, Node, Express, Next, Django, and Flask.{" "}
           </p>
           <a
             href="https://www.linkedin.com/in/logan-sailer/"
@@ -89,10 +88,10 @@ const Main = () => {
       <section id="projects" className="py-20 lg:py-32 flex flex-col gap-24">
         <div className="flex flex-col gap-2 text-center">
           <h6 className="text-lg sm:text-xl md:text-2xl">
-            A few of my past projects
+            Please take a look at
           </h6>
           <h3 className="font-semibold text-3xl sm:text-4xl md:text-5xl">
-            Please take a <span className="poppins text-violet-400">look</span>
+            <span className="poppins text-violet-400">My Projects</span>
           </h3>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
