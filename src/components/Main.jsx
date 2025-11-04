@@ -2,11 +2,11 @@ import Step from "./Step";
 
 let steps = [
   {
-    name: ".world",
+    name: "Client Database Management Site",
     icon: "fa-solid fa-globe",
-    href: "https://github.com/logansailer/ecommerce-site/tree/main?tab=readme-ov-file",
+    href: "https://github.com/logansailer/Client-Database-Management-Site",
     content:
-      ".world is a responsive, full-stack e-commerce web application built with React, Node.js, and Express. It offers a seamless user experience for browsing and purchasing using Firebase for convenient user authentication and Stripe for secure transactions.",
+      "A full-stack web application for managing train schedules, built with MySQL and Express.js on the backend and JavaScript, HTML, and Handlebars on the frontend. The app supports full CRUD functionality (Create, Read, Update, Delete) and provides a responsive interface for interacting with client data.",
   },
   {
     name: "Chacha",
