@@ -26,19 +26,19 @@ let steps = [
 
 let benefits = [
   {
-    name: "a developer",
+    name: "my experience",
     description:
-      "I initially pursued premed due to external expectations, but I took charge of my career and discovered my true passion for software development. Through self-study, I became proficient in full-stack development, built a fully functional e-commerce platform, and mastered technologies like React, Node.js, and Firebase. Now, I'm further solidifying my skills through a second degree in Computer Science, continuously pushing myself to grow and improve.",
+      "I’m a computer science student passionate about building applications that are practical and intuitive. Most recently, I developed a Client Database Management Site that utilizes MySQL and Express.js for backend data handling and a Handlebars frontend for dynamic content rendering. In this project, I designed normalized database schemas, implemented RESTful APIs, and optimized SQL queries for performance and safety. Alongside my development work, I teach computer science, guiding students through programming fundamentals and object-oriented design using Python and JavaScript. This has strengthened my communication skills and deepened my understanding of how to explain complex technical concepts clearly and effectively.",  
   },
   {
-    name: "a biologist",
+    name: "my work",
     description:
-      "My biology degree trained me to analyze complex systems, interpret data, and think critically—skills that directly apply to software development. Working in a hospital exposed me to high-pressure problem-solving and interdisciplinary collaboration. With a scientific mindset, I'm used to forming hypotheses, testing solutions, and refining results, which helps me approach debugging and optimizing code in a structured way.",
+      "As an engineer, I focus on design and efficiency. My E-Commerce Web Application exemplifies this: it’s a responsive, full-stack platform built with React, Node.js, and Express.js, featuring Stripe integration for secure payments. It leverages React to create reusable, performant  components. I also built Chacha, a caffeine tracking app designed with personalized dashboards and visual analytics using React, Node, and Firebase. Across these projects, I’ve honed my ability to design clean interfaces, write reusable code, and create scalable platforms. My stack includes JavaScript, TypeScript, Python, and SQL with frameworks like React, Next, Django, and Express. Whether it’s crafting a UI, designing an API, or structuring a database, I’m always programming with form and function in mind.",
   },
   {
-    name: "a bridge",
+    name: "my focus",
     description:
-      "With a background in both science and software, I bring a unique interdisciplinary perspective. My knowledge of biology and healthcare makes me well-suited for biotech, healthtech, and AI-driven research. I understand both the scientific process and the software development lifecycle, allowing me to bridge the gap between researchers and engineers. Whether working with data, algorithms, or healthcare applications, I'm excited about building technology that solves real-world scientific problems.",
+      "Right now, I’m expanding my expertise in computer science while continuing to build. I’m pursuing a Bachelor’s in Computer Science at Oregon State University, maintaining a 4.0 GPA and completing coursework in data structures, algorithms, computer architecture, database development, and more. My current focus area is full stack engineering: building performant backends and databases to work with elegant and modern frontends. Looking forward, I’m excited to contribute to projects, explore new technologies, and continue to learn through a company that encourages collaboration and growth.",  
   },
 ];
 
