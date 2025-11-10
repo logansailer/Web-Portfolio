@@ -115,9 +115,6 @@ const Main = () => {
             A bit <span className="poppins text-violet-400">about</span> me
           </h3>
         </div>
-        <p className="mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">
-          I am . . .
-        </p>
         <div className="flex flex-col gap-20 w-full mx-auto max-w-[800px]">
           {benefits.map((benefit, index = 0) => (
             <div key={benefit.name} className="flex gap-6 sm:gap-8">
