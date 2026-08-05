@@ -1,39 +1,50 @@
-import { useState } from "react";
-import Header from "./components/Header";
-import Main from "./components/Main";
-import Footer from "./components/Footer";
+import { useEffect, useState } from "react";
+import Sidebar from "./components/Sidebar";
+import BackgroundGlow from "./components/BackgroundGlow";
+import Hero from "./components/sections/Hero";
+import About from "./components/sections/About";
+import Experience from "./components/sections/Experience";
+import Projects from "./components/sections/Projects";
+import Contact, { SiteFooter } from "./components/sections/Contact";
+import useActiveSection from "./hooks/useActiveSection";
+
+const SECTION_IDS = ["top", "about", "experience", "projects", "contact"];
 
 function App() {
-  const [offset, setOffset] = useState(0);
-  let y = offset;
+  const activeId = useActiveSection(SECTION_IDS);
+  const [showTopButton, setShowTopButton] = useState(false);
 
-  const onScroll = () => setOffset(window.scrollY);
-  window.addEventListener("scroll", onScroll);
+  useEffect(() => {
+    const onScroll = () => setShowTopButton(window.scrollY > 400);
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
-  function goTop() {
-    document.body.scrollIntoView();
-  }
+  const scrollToTop = () => window.scrollTo({ top: 0, behavior: "smooth" });
 
   return (
-    <div className="relative flex flex-col max-w-[1400] mx-auto w-full text-sm sm:text-base min-h-screen">
-      <Header y={y} />
-      <Main />
-      <Footer />
-      <div
-        className={
-          "fixed bottom-0 w-full duration-200 flex p-10 z-[10] " +
-          (y > 0
-            ? "opacity-full pointer-events-auto"
-            : "pointer-events-none opacity-0")
-        }
+    <div className="relative min-h-screen text-mist-100 selection:bg-accent/30 selection:text-mist-100">
+      <BackgroundGlow />
+      <Sidebar activeId={activeId} />
+
+      <main className="lg:ml-[400px] xl:ml-[460px] px-6 sm:px-12 lg:pr-16 lg:pl-16 max-w-content">
+        <Hero />
+        <About />
+        <Experience />
+        <Projects />
+        <Contact />
+        <SiteFooter />
+      </main>
+
+      <button
+        onClick={scrollToTop}
+        aria-label="Back to top"
+        className={`fixed bottom-6 right-6 z-40 rounded-full bg-ink-800/70 backdrop-blur-sm border border-line shadow-glass text-accent w-11 h-11 grid place-items-center duration-200 hover:border-accent hover:bg-accent/10 ${
+          showTopButton ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
+        }`}
       >
-        <button
-          onClick={goTop}
-          className="ml-auto rounded-full aspect-sqaure bg-slate-900 text-violet-400 px-3 sm:px-4 hover:bg-slate-800 cursor-pointer aspect-square grid place-items-center"
-        >
-          <i className="fa-solid fa-arrow-up"></i>
-        </button>
-      </div>
+        <i className="fa-solid fa-arrow-up"></i>
+      </button>
     </div>
   );
 }
