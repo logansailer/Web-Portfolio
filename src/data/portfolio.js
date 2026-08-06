@@ -7,7 +7,7 @@ export const PROFILE = {
   email: "logansailer0633@gmail.com",
   status: "Open to new-grad software roles",
   blurb:
-    "Full-stack engineer who likes owning problems end to end — design, code, and ship.",
+    "Full-stack engineer who likes owning problems end to end. Designing, developing, and deploying software from start to finish.",
 };
 
 export const NAV_LINKS = [
