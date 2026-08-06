@@ -6,7 +6,8 @@ export const PROFILE = {
   location: "Philadelphia, PA",
   email: "logansailer0633@gmail.com",
   status: "Open to new-grad software roles",
-  blurb: "Full-stack engineer who likes owning problems end to end — design, code, and ship.",
+  blurb:
+    "Full-stack engineer who likes owning problems end to end — design, code, and ship.",
 };
 
 export const NAV_LINKS = [
@@ -53,7 +54,7 @@ export const EXPERIENCE = [
   {
     company: "URBN",
     companyFull: "Urban Outfitters, Anthropologie, Free People, Nuuly",
-    href: "https://www.urbn.com/",
+    href: "https://www.urbn.com/our-brands",
     role: "Web Software Engineering Intern",
     location: "Philadelphia, Pennsylvania",
     date: "June 2026 – August 2026",
@@ -73,7 +74,12 @@ export const EXPERIENCE = [
     bullets: [
       "Tutored students in CS fundamentals, including algorithms, data structures, and web development.",
     ],
-    tags: ["Algorithms", "Data Structures", "Teaching"],
+    tags: [
+      "Algorithms",
+      "Data Structures",
+      "Full-Stack Development",
+      "Teaching",
+    ],
   },
   {
     company: "JET Program",
@@ -86,7 +92,7 @@ export const EXPERIENCE = [
     bullets: [
       "Designed and delivered lessons while adapting technical concepts across language and cultural barriers.",
     ],
-    tags: ["Communication", "Curriculum Design"],
+    tags: ["Communication", "Teaching"],
   },
 ];
 
@@ -109,7 +115,7 @@ export const PROJECTS = [
     linkLabel: "Built for URBN",
     stack: ["Vue", "TypeScript", "AI"],
     description:
-      "An AI-enhanced post-checkout \"Add to Order\" experience integrating the Google Gemini API with an existing recommendation system to deliver curated, real-time suggestions.",
+      'An AI-enhanced post-checkout "Add to Order" experience integrating the Google Gemini API into an existing recommendation system to deliver curated, real-time suggestions.',
     highlight:
       "Earned 5th place among 164 participants, advancing to executive-round judging in a company-wide hackathon.",
   },
@@ -149,7 +155,7 @@ export const PROJECTS = [
     description:
       "A Unix-like shell written in C supporting command execution, process control, and input parsing using low-level system calls.",
     highlight:
-      "Implemented I/O redirection, signal handling, and foreground/background process management.",
+      "Implemented I/O redirection, signal handling, and foreground/background process management from scratch.",
   },
 ];
 
@@ -199,7 +205,7 @@ export const SKILLS = [
       "Playwright",
       "Vitest",
       "Pytest",
-      "AI-Assisted Development",
+      "AI-Assisted Development (Claude, Cursor, Gemini)",
     ],
   },
 ];

@@ -21,28 +21,39 @@ const About = () => {
       >
         <div className="lg:col-span-3 flex flex-col gap-5 text-mist-300 leading-relaxed">
           <p>
-            I&apos;m a full-stack engineer with a somewhat non-traditional path: I earned a
-            biology degree, spent a year teaching in Japan through the JET Program, and then
-            went back to school to study computer science &mdash; graduating{" "}
-            <span className="text-mist-100">Summa Cum Laude with a 4.0 GPA</span>. That mix
-            left me with a habit of explaining hard things simply — which comes in handy both
-            when writing code and when reviewing it with a team.
+            I&apos;m a full-stack engineer with a somewhat non-traditional path:
+            I earned a biology degree, but in my last semester found a passion
+            for computer science. After graduating, I spent a year teaching in
+            Japan through the JET Program, but every day after work I would come
+            home and study computer science until I fell asleep. I then went
+            back to school to formally study computer science; graduating{" "}
+            <span className="text-mist-100">
+              Summa Cum Laude with a 4.0 GPA
+            </span>
+            . That unique background left me with the ability to explain
+            difficult concepts simply, which comes in handy both when writing
+            code and when reviewing it with a team.
           </p>
           <p>
             Most recently, I worked as a{" "}
-            <span className="text-mist-100">Web Software Engineering Intern at URBN</span>,
-            shipping features and fixing bugs across revenue-critical Vue/TypeScript
-            e-commerce apps used by millions of customers, and building an internal visual
-            debugging tool now used across engineering, design, and QA. I also placed 5th out
-            of 164 teams in a company-wide hackathon building an AI-powered checkout
-            experience with the Gemini API.
+            <span className="text-mist-100">
+              Web Software Engineering Intern at URBN
+            </span>
+            , shipping features and fixing bugs across revenue-critical
+            Vue/TypeScript e-commerce apps used by millions of customers, and
+            building an internal visual debugging tool now used across
+            engineering, design, and QA. I also placed 5th out of 164
+            contestants in a company-wide hackathon building an AI-enhanced
+            checkout experience with the Google Gemini API, helping to improve
+            customer conversion rates with personalized product suggestions.
           </p>
           <p>
-            Outside of that, I tutor computer science students in algorithms, data
-            structures, and web development, and I build side projects to keep learning new
-            stacks. I&apos;m conversational in Japanese, and I&apos;m currently looking for a
-            full-time software engineering role where I can keep building things people
-            actually use.
+            Outside of that, I have experience tutoring computer science
+            students in algorithms, data structures, and web development, and I
+            build side projects to keep learning new stacks. I&apos;m
+            conversational in Japanese, and I&apos;m currently looking for a
+            full-time software engineering role where I can keep building things
+            people actually use.
           </p>
 
           <div className="flex flex-col gap-4 mt-4">
@@ -57,7 +68,9 @@ const About = () => {
                     {edu.degree} &middot; {edu.detail}
                   </p>
                 </div>
-                <p className="font-mono text-xs text-mist-300 whitespace-nowrap">{edu.date}</p>
+                <p className="font-mono text-xs text-mist-300 whitespace-nowrap">
+                  {edu.date}
+                </p>
               </div>
             ))}
           </div>

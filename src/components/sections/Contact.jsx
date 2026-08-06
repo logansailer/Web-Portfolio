@@ -19,14 +19,15 @@ const Contact = () => {
         variants={fadeUp}
         className="flex flex-col items-center gap-6 max-w-xl"
       >
-        <p className="font-mono text-accent text-sm tracking-widest">04. What&apos;s next?</p>
+        <p className="font-mono text-accent text-sm tracking-widest">
+          04. What&apos;s next?
+        </p>
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-mist-100">
           Let&apos;s build something worth shipping.
         </h2>
         <p className="text-mist-300 leading-relaxed">
-          I&apos;m actively looking for full-time software engineering roles. Whether you
-          have an opening, a question, or just want to talk shop about code, my inbox is
-          open.
+          I&apos;m actively looking for full-time software engineering roles.
+          Feel free to reach out if you have any questions!
         </p>
         <a
           href={`mailto:${PROFILE.email}`}

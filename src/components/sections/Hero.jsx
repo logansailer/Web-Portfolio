@@ -38,7 +38,6 @@ const Hero = () => {
           <span className="italic font-serif text-accent">
             people actually use.
           </span>{" "}
-      
         </motion.h1>
         <motion.p
           variants={item}
@@ -46,9 +45,9 @@ const Hero = () => {
         >
           I&apos;ve shipped features for millions of e-commerce customers at
           URBN, implemented an AI-powered shopping experience with the Gemini
-          API, built a unix shell, and designed relational databases from
-          scratch. I like owning problems end-to-end, and I&apos;m just as
-          comfortable explaining the solution as I am building it.
+          API, and built a directory to help match patients to mental health
+          providers faster. I like owning problems end-to-end, and I&apos;m just
+          as comfortable explaining the solution as I am building it.
         </motion.p>
         <motion.div
           variants={item}
