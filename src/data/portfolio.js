@@ -19,14 +19,14 @@ export const NAV_LINKS = [
 
 export const SOCIAL_LINKS = [
   {
-    name: "GitHub",
-    href: "https://github.com/logansailer",
-    icon: "fa-brands fa-github",
-  },
-  {
     name: "LinkedIn",
     href: "https://www.linkedin.com/in/logan-sailer/",
     icon: "fa-brands fa-linkedin",
+  },
+  {
+    name: "GitHub",
+    href: "https://github.com/logansailer",
+    icon: "fa-brands fa-github",
   },
   {
     name: "Email",
