@@ -2,10 +2,10 @@ export const PROFILE = {
   name: "Logan Sailer",
   firstName: "Logan",
   lastName: "Sailer",
-  role: "Full Stack Software Engineer",
+  role: "Full-Stack Software Engineer",
   location: "Philadelphia, PA",
   email: "logansailer0633@gmail.com",
-  status: "Open to new-grad software roles",
+  status: "Open to software engineering roles",
   blurb:
     "Full-stack engineer who likes owning problems end to end. Designing, developing, and deploying software from start to finish.",
 };
